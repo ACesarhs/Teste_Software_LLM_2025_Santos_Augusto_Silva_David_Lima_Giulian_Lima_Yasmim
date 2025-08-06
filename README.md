@@ -82,6 +82,7 @@ import hypothesis.strategies as st
 @given(st.lists(st.integers()))
 def test_sorted_is_idempotent(lst):
     assert sorted(sorted(lst)) == sorted(lst)
+```
 📌 Propriedade testada: Idempotência — aplicar sorted mais de uma vez retorna o mesmo resultado que aplicar apenas uma vez.
 
 ⚙️ h) Como isso pode ajudar no dia a dia?
