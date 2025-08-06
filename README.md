@@ -100,9 +100,9 @@ Nem todos os testes gerados são válidos
 - Testes nem sempre são fáceis de entender
 
 ## 🚀 j) Possíveis melhorias
-Fine-tuning com mais exemplos reais de testes
-Uso de few-shot prompting para fornecer exemplos ao modelo
-Integração com mutation testing para validar automaticamente a utilidade dos testes gerados
+- Fine-tuning com mais exemplos reais de testes
+- Uso de few-shot prompting para fornecer exemplos ao modelo
+- Integração com mutation testing para validar automaticamente a utilidade dos testes gerados
 
 ## 💬 k) Problema do Stack Overflow relacionado
 **Título:** How can I generate property-based tests for a Python function using Hypothesis?
