@@ -85,40 +85,30 @@ def test_sorted_is_idempotent(lst):
 ```
 📌 Propriedade testada: Idempotência — aplicar sorted mais de uma vez retorna o mesmo resultado que aplicar apenas uma vez.
 
-⚙️ h) Como isso pode ajudar no dia a dia?
-Garantia de qualidade para novas bibliotecas e funções
+## ⚙️ h) Como isso pode ajudar no dia a dia?
+- Garantia de qualidade para novas bibliotecas e funções
+- Detecção de bugs antes de chegarem ao usuário
+- Redução de tempo na criação de testes
+- Ideal para equipes com pouco conhecimento prévio de PBT
+- Aplicável em pipelines CI/CD
 
-Detecção de bugs antes de chegarem ao usuário
-
-Redução de tempo na criação de testes
-
-Ideal para equipes com pouco conhecimento prévio de PBT
-
-Aplicável em pipelines CI/CD
-
-⚠️ i) Limitações
+## ⚠️ i) Limitações
 Nem todos os testes gerados são válidos
+- Possibilidade de repetição ou pouca utilidade nos testes
+- Alto custo de uso contínuo de modelos como GPT-4
+- Qualidade depende fortemente do prompt
+- Testes nem sempre são fáceis de entender
 
-Possibilidade de repetição ou pouca utilidade nos testes
-
-Alto custo de uso contínuo de modelos como GPT-4
-
-Qualidade depende fortemente do prompt
-
-Testes nem sempre são fáceis de entender
-
-🚀 j) Possíveis melhorias
+## 🚀 j) Possíveis melhorias
 Fine-tuning com mais exemplos reais de testes
-
 Uso de few-shot prompting para fornecer exemplos ao modelo
-
 Integração com mutation testing para validar automaticamente a utilidade dos testes gerados
 
-💬 k) Problema do Stack Overflow relacionado
-Título: How can I generate property-based tests for a Python function using Hypothesis?
+## 💬 k) Problema do Stack Overflow relacionado
+**Título:** How can I generate property-based tests for a Python function using Hypothesis?
 
-Motivo da escolha: o problema é exatamente o que o artigo resolve — gerar testes PBT de forma automática a partir de uma descrição de função.
+**Motivo da escolha:** o problema é exatamente o que o artigo resolve — gerar testes PBT de forma automática a partir de uma descrição de função.
 
-📚 Referência
+## 📚 Referência
 Spruit, N., Wesselink, W., & others. (2023). Can Large Language Models Write Good Property-Based Tests? arXiv:2307.04346.
 Disponível em: https://arxiv.org/abs/2307.04346
