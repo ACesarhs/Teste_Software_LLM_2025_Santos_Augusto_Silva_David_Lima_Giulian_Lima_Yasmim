@@ -106,6 +106,7 @@ Nem todos os testes gerados são válidos
 
 ## 💬 k) Problema do Stack Overflow relacionado
 **Título:** How can I generate property-based tests for a Python function using Hypothesis?
+https://stackoverflow.com/questions/58111595/how-to-dynamically-add-or-delete-tasks-to-celery-without-restarting-celery
 
 **Motivo da escolha:** o problema é exatamente o que o artigo resolve — gerar testes PBT de forma automática a partir de uma descrição de função.
 
